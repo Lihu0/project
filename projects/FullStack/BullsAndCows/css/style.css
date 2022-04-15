@@ -2,56 +2,57 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
 
-body{
-    background: #a3dce0;
+body {
+    background: url(https://images.hdqwalls.com/download/windows-11-amoled-vl-2560x1440.jpg);
+    background-position: center center;
     color: rgb(0, 199, 33);
     font-size: 1.2em;
     Font-weight: 500;
-    font-family: 'Rubik Moonrocks', cursive,  sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
 }
 
-hr{
+hr {
     border: 5px solid rgb(255, 166, 0);
     border-radius: 5px;
 }
 
-input{
+input {
     width: 150px;
 }
 
-.all_site{
-    background: rgba(255,255,255,1);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,207,112,0.91) 51%, rgba(255,255,255,0.82) 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(51%, rgba(255,207,112,0.91)), color-stop(100%, rgba(255,255,255,0.82)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,207,112,0.91) 51%, rgba(255,255,255,0.82) 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,207,112,0.91) 51%, rgba(255,255,255,0.82) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(255,207,112,0.91) 51%, rgba(255,255,255,0.82) 100%);
-    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,207,112,0.91) 51%, rgba(255,255,255,0.82) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
-    margin: 24px 50px 40px;
+.all_site {
+    background: rgba(241, 231, 103, 1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(241, 231, 103, 1) 0%, rgba(254, 182, 69, 0.3) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(241, 231, 103, 1)), color-stop(100%, rgba(254, 182, 69, 0.3)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(241, 231, 103, 1) 0%, rgba(254, 182, 69, 0.3) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(241, 231, 103, 1) 0%, rgba(254, 182, 69, 0.3) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(241, 231, 103, 1) 0%, rgba(254, 182, 69, 0.3) 100%);
+    background: radial-gradient(ellipse at center, rgba(241, 231, 103, 1) 0%, rgba(254, 182, 69, 0.3) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1e767', endColorstr='#feb645', GradientType=1);
+    margin: 50px 50px 40px;
     border-radius: 10%;
 }
 
-h1{
-    text-shadow: 9px 5px 2px rgba(206,138,138,0.68);
+h1 {
+    text-shadow: 9px 5px 2px rgba(206, 138, 138, 0.68);
 }
 
-form button{
-    text-shadow: 2px 5px 2px rgb(129, 69, 197);
+form button {
+    text-shadow: 2px 5px 2px rgba(129, 69, 197);
     width: 80px;
-    font-family: 'Grape Nuts', cursive, sans-serif;
+    font-family: 'Grape Nuts', cursive;
     font-weight: bold;
 }
 
-img{
-    margin: 100px 100px 20px;
+img {
+    margin: 25 100px 20px;
 }
 
-.pic_cat{
+.pic_cat {
     filter: grayscale(50%) blur(0);
     border-radius: 50%;
 }
 
-.pic_cat:hover{
-    filter: grayscale(100%) blur(2px);
+.pic_cat:hover {
+    filter: grayscale(100%) blur(3px);
 }
