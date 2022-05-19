@@ -10,6 +10,7 @@ body {
   color: #0800ff !important;
   font-weight: bold;
   border-radius: 1.6em;
+  border: 2px solid #ffb700;
 }
 
 .all_site .search {
