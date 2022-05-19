@@ -1,2 +1,19 @@
+body {
+  font-size: 1.2em;
+}
 
+.all_site {
+  margin: 50px 50px 40px;
+}
+
+.all_site input {
+  color: #0800ff;
+  font-weight: bold;
+  border-radius: 1.6em;
+}
+
+.all_site .search {
+  color: #00a419;
+}
 /*# sourceMappingURL=style.css.map */
+/*style.css.map not found in github*/
