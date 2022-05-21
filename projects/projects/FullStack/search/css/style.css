@@ -7,7 +7,7 @@ body {
 }
 
 .all_site input {
-  color: #0800ff !important;
+  color: #0800ff;
   font-weight: bold;
   border-radius: 1.6em;
   border: 2px solid #ffb700;
