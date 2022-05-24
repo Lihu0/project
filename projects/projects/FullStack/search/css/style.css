@@ -6,15 +6,20 @@ body {
   margin: 50px 50px 40px;
 }
 
-.all_site input {
+.all_site form input {
   color: #0800ff !important;
   font-weight: bold;
   border-radius: 1.6em;
   border: 2px solid #ffb700;
 }
 
-.all_site .search {
+.all_site form .search {
   color: #00a419;
+}
+
+.all_site form button {
+  border: none;
+  background: #00000000;
 }
 /*# sourceMappingURL=style.css.map */
 /*style.css.map not found in github*/
