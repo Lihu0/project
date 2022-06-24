@@ -1,0 +1,25 @@
+body{
+    font-size:1.2em
+}
+
+.all_site{
+    margin: 50px 50px 40px;
+
+    form{
+        input{
+            color:#0800ff !important;
+            font-weight: bold;
+            border-radius:1.6em;
+            border: 2px solid #ffb700;
+        }
+    
+        .search{
+            color:#00a419;
+        }
+
+        button{
+            border: none;
+            background:#00000000
+        }
+    }
+}

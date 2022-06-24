@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./bs/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <script src="./js/onclick.js"></script>
+</head>
+
+<body class="text-center">
+    <div class="all_site">
+        <h1 class="display-1">התקנת bootstrap בקלות</h1>
+        <form action="./installer.html">
+            <input type="radio" name="language" value="css" required>
+            <label for="html">css</label><br>
+            <input type="radio" name="language" value="js">
+            <label for="css">js</label>
+
+            <br>
+
+            <input type="checkbox" name="min" checked>
+            <label> קובץ מינימלי (מומלץ)</label>
+            <img src = "./imgs/help.webp" height="30px" onclick="onClickHelpBtn()">
+
+            <br>
+
+            <button class="w3-panel w3-pale-blue w3-hover-pale-green w3-leftbar w3-border-blue">התקן</button>
+        </form>
+    </div>
+</body>
+
+</html>
