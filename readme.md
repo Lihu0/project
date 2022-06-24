@@ -1,5 +1,5 @@
-- Bulls and Cows (FuulStack) <br>
-- bootstrap downloader (FuulStack) in https://bsinstall.netlify.app/ <br>
-- search  (FuulStack) in https://search-lihu.netlify.app/ <br>
+- Bulls and Cows (FullStack)
+- bootstrap downloader (FullStack) in https://bsinstall.netlify.app/
+- search  (FullStack) in https://search-lihu.netlify.app/
 - install pandas: pip install pandas
 - install numpy: pip install numpy
