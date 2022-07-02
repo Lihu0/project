@@ -1,4 +1,5 @@
 - Bulls and Cows (FullStack)
+- calcolator (FullStack) in https://calclihu.netlify.app/
 - bootstrap downloader (FullStack) in https://bsinstall.netlify.app/
 - search  (FullStack) in https://search-lihu.netlify.app/
 - install pandas: pip install pandas
