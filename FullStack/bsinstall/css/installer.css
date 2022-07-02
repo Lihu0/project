@@ -6,7 +6,7 @@
 .all_site {
   padding: 1rem;
 }
-.all_site #cdn code {
+.all_site #cdn image.pngimage.pngimage.png code {
   font-family: "Fira Code", monospace;
   display: inline-block;
   border: 0.25rem solid #0077ff;
@@ -15,7 +15,7 @@
 }
 .all_site a {
   text-decoration: none;
-  color: #e89300;
+  color: #d88900;
   transition: color 800ms;
   font-weight: 500;
 }

@@ -1,0 +1,57 @@
+* {
+    font-size: 1.1rem;
+}
+
+@mixin btn {
+    background-color: #4CAF50;/* Green */
+    border: none;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+$pd: 0.15rem;
+
+.all_site {
+    padding: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .calculator {
+        background: #00aaff;
+        min-width: 350px;
+        min-height: 300px;
+        border: 3px solid black;
+        border-radius:50px;
+        span {
+            padding: $pd;
+            span {
+                display: inline-block;
+                button {
+                    @include btn;
+                }
+            }
+        }
+
+        #span_4 {
+            padding: $pd;
+            span{
+                button {
+                    @include btn;
+                    display: block;
+                    size: 25px;
+                }
+            }
+        }
+
+        #output{
+            border: 4px solid #008822;
+            background: #00ba2f;
+        }
+    }
+
+    .footer{
+        font-size: 1.5rem;
+        color: #ffe6b4;
+        font-weight: bold;
+    }
+}
