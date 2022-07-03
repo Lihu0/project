@@ -40,7 +40,9 @@ const onclick_enter = () => {
         input_num.value = '';
     }
     else if (calcbp(rnd, value)[0] == 4){
+        tries++;
         alert(`כל הכבוד הצלחת ב ${tries} ניסיונות`);
+        table.innerHTML += `<tr><td>${value}</td><td>${calcbp(rnd, value)[0]}</td><td>${calcbp(rnd, value)[1]}</td><td>${tries}</td><tr>`;
         input_num.value = '';
     }
     else{
