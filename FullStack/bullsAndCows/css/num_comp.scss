@@ -1,0 +1,23 @@
+*{
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.all_site{
+    padding: 6.25rem;
+    min-width: 350px;
+    min-height: 300px;
+    #input{
+        button{
+            border: 0.25rem solid #00c932;
+            background: #00a3e9;
+            color: white;
+            padding: 0.55rem;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-radius: 3px;
+            margin: 0.25rem;
+        }
+    }
+}
