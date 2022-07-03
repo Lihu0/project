@@ -18,6 +18,6 @@ input.innerHTML += '<button onclick="onclick_c();">c</button>';
 input.innerHTML += '<br>';
 input.innerHTML += '<button onclick = "onclick_enter()">enter</button>';
 main.innerHTML +=  `המחשב בחר מספר בין ${dig} ספרות, נסו לנחש את המספר`;
-main.innerHTML +=  `<br>* למספר אין ספרות שוות`;
-main.innerHTML +=  `<br>* המספר לא מתחיל ב 0`;
+main.innerHTML +=  `<br>למספר אין ספרות שוות *`;
+main.innerHTML +=  `<br>המספר לא מתחיל ב 0 *`;
 main.innerHTML +=  `<br><table class="table"><thead><tr><th>ניחוש</th><th>בולים</th><th>פגיעות</th><th>ניסיון</th></tr></thead><tbody id="table"></tbody>`;
