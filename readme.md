@@ -4,3 +4,4 @@
 - search  (FullStack) in https://search-lihu.netlify.app/
 - install pandas: pip install pandas
 - install numpy: pip install numpy
+- Bulls and Cows (FullStack) in https://bullsandcowslihu.netlify.app/
