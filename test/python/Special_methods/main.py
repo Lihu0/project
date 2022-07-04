@@ -33,6 +33,6 @@ print("t" if p == 10 else "f")
 
 try:
     p.z = 10
-
+    
 except:
     print()
