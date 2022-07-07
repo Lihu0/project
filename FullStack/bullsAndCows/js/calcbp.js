@@ -5,7 +5,7 @@ const calcbp =  (selected_num, guess_num, dig = 4) => {
     const guess_arr = Array.from(guess_num.toString()).map(Number); //num to arr
     let bool = 0;
     let bool_arr = new Array(dig);
-    let pgia= 0;
+    let pgia = 0;
     for (let i = 0; i < dig; i++) {
         if (selected_arr[i] == guess_arr[i]) {
             bool++;
