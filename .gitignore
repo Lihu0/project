@@ -1,3 +1,5 @@
-*.pyc
-*.map
-vscode/
+__pycache__/
+.vscode/
+.sass-cache/
+*.css.map
+*.scss.map
